@@ -1,7 +1,47 @@
 #main-banner {
-    background: #727CE5;
+    background: #727ce5;
 }
 
 .has-shadow {
-    box-shadow: 0 0 20px rgba($color: #000000, $alpha: .5)
+    box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.5);
+}
+
+.show-item {
+    position: relative;
+    border-radius: 6px;
+    flex: 1 1 0;
+    min-width: 10rem;
+    max-width: 12vw;
+    margin: 0.8vw;
+
+    &:hover {
+        & * .card-image {
+            filter: blur(2px);
+        }
+
+        & * .card-footer {
+            opacity: 1;
+            height: auto;
+            & > .card-footer-item {
+                display: flex;
+            }
+        }
+    }
+}
+
+.card-footer {
+    transition: .5s;
+    height: 0;
+}
+
+.card-footer > .tag {
+    margin: .5rem .15rem;
+}
+
+.show-item * .card-footer-item {
+    display: none;
+}
+
+.icon > a {
+    color: black;
 }
