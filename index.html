@@ -13,48 +13,18 @@ layout: default
                 <div class="column">
                     <h1 class="title is-4 has-text-white">Cristofer Canosa Dominguez</h1>
                     <p class="has-text-white">Desarrollador</p>
-                    <span class="icon is-medium">
-                        <a target="_blank" href="https://github.com/CristoferCD">
-                            <i class="fab fa-2x fa-github"></i>
-                        </a>
-                    </span>
-                    <span class="icon is-medium">
-                        <a target="_blank"
-                            href="https://www.linkedin.com/in/cristofer-canosa-dom%C3%ADnguez-ab942b101/">
-                            <i class="fab fa-2x fa-linkedin"></i>
-                        </a>
-                    </span>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section class="section container">
-    <h1 class="title is-4">Proyectos</h1>
-    <hr />
     <div class="columns">
-        {% for project in site.projects %}
-        <div class="column is-one-quarter">
-            <a href="{{project.url}}">
-                <div class="card show-item">
-                    <div class="show-card">
-                        <div class="card-image">
-                            <figure class="image is-3by2">
-                                <img src="{{project.banner_img}}">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <h1>{{project.name}}</h1>
-                        </div>
-                        <div class="card-footer tags">
-                            {% for tag in project.tags %}
-                            <div class="card-footer-item tag">{{tag}}</div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <div class="column">
+            {% include project-list.html %}
         </div>
-        {% endfor %}
+        <div class="column is-narrow">
+            {% include contact.html %}
+        </div>
     </div>
 </section>
