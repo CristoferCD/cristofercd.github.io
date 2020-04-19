@@ -1,7 +1,7 @@
 ---
 layout: project
 name: OpenMediaWeb
-banner_img: https://bulma.io/images/placeholders/480x320.png
+banner_img: /assets/img/project/openmediaweb-banner.png
 github_link: https://github.com/CristoferCD/OMediaWeb
 tags:
     - Vue
