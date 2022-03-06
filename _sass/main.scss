@@ -50,3 +50,8 @@
 #list-contacto * .label-contacto {
     vertical-align: top;
 }
+
+.image.is-max-128 {
+    max-height: 128px; 
+    max-width: 128px;
+ }
