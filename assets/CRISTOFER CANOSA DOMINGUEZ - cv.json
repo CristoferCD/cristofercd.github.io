@@ -1,0 +1,239 @@
+{
+  "picture": {
+    "hidden": true,
+    "url": "",
+    "size": 64,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Cristofer Canosa Dominguez",
+    "headline": "Analista Desarrollador",
+    "email": "cristofer_cd@outlook.es",
+    "phone": "+34 689032436",
+    "location": "Noia, Galicia",
+    "website": {
+      "url": "https://cristofercd.github.io",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "",
+    "columns": 1,
+    "hidden": false,
+    "content": "<p>Desarrollador Java con experiencia principalmente en desarrollo para entidades públicas. </p><p>Idiomas: Castellano y Gallego nativos, Inglés alto.</p><p>Fuera del entorno profesional intento crear proyectos personales para aprender nuevas tecnologías y afrontar problemas desde un nuevo punto de vista. En los ejemplos más recientes he realizado varias pruebas de concepto con Kotlin y su aplicación en frameworks como Quarkus, Micronaut o Spring Boot y librerías como Exposed. Actualmente creando un gestor de tareas con integración con Redmine en Compose Multiplatform.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "Profiles",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "experience": {
+      "title": "Experiencia",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "z89n01q5ms1ngkdw7i4m4vuh",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Inerza",
+          "position": "Analista Desarrollador",
+          "location": "",
+          "period": "Julio 2022 - Actualidad",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Desarrollo de aplicación web de tramitación electrónica para el gobierno de Canarias.</p><p>Gestión de documentos y firmas electrónicas, con flujos de trabajo variados, configurables y automatizables, para adaptarse a distintos servicios y consejerías de Gobierno.</p><p></p><ul><li><p>Stack principal: Java, Spring MVC, JSP, Hibernate. </p></li><li><p>Alto volumen de tareas en segundo plano coordinadas mediante Quartz o con un framework propio.</p></li><li><p>Múltiples conexiones con otros servicios SOAP mediante Apache Camel y CXF. Conexión con colas JMS y otros servicios REST.</p></li><li><p>Configuración y despliegue de un clúster de Kubernetes sobre bare metal como sucesor a la implementación anterior en Docker Swarm.</p></li><li><p>Diseño e implementación de pipeline GitOps (Gitlab + Jenkins + ArgoCD) y sistema de observabilidad (OpenTelemetry, Grafana, Tempo, Prometheus)</p></li></ul><p></p>"
+        },
+        {
+          "id": "zd1jjmdngb556f969rhd7s96",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Coremain",
+          "position": "Desarrollador",
+          "location": "",
+          "period": "Agosto 2018 - Julio 2022",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Mantenimiento y desarrollo de nuevas funcionalidades de una aplicación de gestión para la consejería de educación con un componente web público y un cliente de escritorio de gestión interna.</p><p>Gestión de personal, presentación y baremación de solicitudes en múltiples convocatorias. Generación de informes y documentos oficiales.</p><ul><li><p>Web JSF/Icefaces, backend Spring.</p></li><li><p>Web Angular, backend Spring REST.</p></li><li><p>Cliente Java Web Start, Swing, JavaFX, backend Spring remote invoker.</p></li><li><p>Capa de persistencia Hibernate, Oracle.</p></li></ul><p>Funciones realizadas: Corrección de errores, diseño y desarrollo de nuevas funcionalidades, gestión de despliegues, desarrollo de herramientas internas y formación de nuevas incorporaciones.</p>"
+        },
+        {
+          "id": "nwwjxenq27x82330skm2fh0y",
+          "hidden": false,
+          "company": "Balidea",
+          "position": "Desarrollador Web - Prácticas",
+          "location": "",
+          "period": "Julio 2017 - Septiembre 2017",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Desarrollador web utilizando frameworks Spring y Struts. Trabajo en prácticas como parte del Grado de Ingeniería Informática de la USC.</p>"
+        }
+      ]
+    },
+    "education": {
+      "title": "Educación",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "np398ijv5mppqrtuls2sweu7",
+          "hidden": false,
+          "school": "USC",
+          "degree": "Grado de Ingeniería Informática",
+          "area": "",
+          "grade": "",
+          "location": "",
+          "period": "2014 - 2018",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "skills": {
+      "title": "Skills",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "languages": {
+      "title": "Languages",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "interests": {
+      "title": "Interests",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "awards": {
+      "title": "Awards",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certifications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "publications": {
+      "title": "Publications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "Volunteering",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    }
+  },
+  "customSections": [],
+  "metadata": {
+    "template": "kakuna",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "summary",
+            "profiles",
+            "experience",
+            "projects",
+            "education",
+            "volunteer",
+            "references",
+            "skills",
+            "interests",
+            "certifications",
+            "awards",
+            "publications",
+            "languages"
+          ],
+          "sidebar": []
+        }
+      ]
+    },
+    "css": {
+      "enabled": true,
+      "value": ".experience-item-header {\n\tfont-weight: 600;\n}\n.experience-item-title {\n\tfont-weight: 800;\n}"
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 18,
+      "marginY": 18,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(217, 119, 6, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "400"
+        ],
+        "fontSize": 10.5,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 13.5,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": ""
+  }
+}
